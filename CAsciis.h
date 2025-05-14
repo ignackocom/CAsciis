@@ -2,13 +2,17 @@
 * \file      CAsciis.h
 * \version   2025.03.18.01
 * \author    Peter Potrok
+*            ignacko.com@outlook.com
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
 * \brief     Ascii char table constants
 * \details
 *
-* \see       https://www.asciitable.com/
+* \see       https://github.com/ignackocom
+*            https://www.asciitable.com/
+*			 and other resources
 ******************************************************************************/
+
 #ifndef CASCIIS_H
 #define CASCIIS_H		20250318L
 
@@ -269,6 +273,19 @@
 #define LOWER_x     ASCII_x
 #define LOWER_y     ASCII_y
 #define LOWER_z     ASCII_z
+
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	long CASCIIS_VERSION(void);
+
+#ifdef __cplusplus
+}
+#endif
+
 
 
 #endif /* CASCIIS_H */
