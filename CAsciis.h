@@ -94,7 +94,7 @@
 #define ASCII_QUESTION_MARK         '?'   /* 63  */ /* 3F */
 #define ASCII_AT_SIGN               '@'   /* 64  */ /* 40 */
 
-#define ASCII_A                     'A'   /* 64  */ /* 41 */
+#define ASCII_A                     'A'   /* 65  */ /* 41 */
 #define ASCII_B                     'B'   /* 66  */ /* 42 */
 #define ASCII_C                     'C'   /* 67  */ /* 43 */
 #define ASCII_D                     'D'   /* 68  */ /* 44 */
@@ -129,7 +129,7 @@
 #define ASCII_CARET                 '^'   /* 94  */ /* 5E */
 #define ASCII_CIRCUMFLEX            '^'   /* 94  */ /* 5E */
 #define ASCII_UNDERSCORE            '_'   /* 95  */ /* 5F */
-#define ASCII_GRAVE_ACCENT          '\''  /* 96  */ /* 60 */
+#define ASCII_GRAVE_ACCENT          '`'   /* 96  */ /* 60 */
 
 #define ASCII_a                     'a'   /* 97  */ /* 61 */
 #define ASCII_b                     'b'   /* 98  */ /* 62 */
@@ -180,8 +180,10 @@
 #define BS      ASCII_BS
 #define HT      ASCII_HT
 #define LF      ASCII_LF
+#define NL		ASCII_NL
 #define VT      ASCII_VT
 #define FF      ASCII_FF
+#define NP		ASCII_NP
 #define CR      ASCII_CR
 #define SO      ASCII_SO
 #define SI      ASCII_SI
